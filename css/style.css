@@ -11,6 +11,7 @@ body{
     row-gap: 50px;
     margin-bottom: 50px;
     grid-template-areas: 
+        "nav"
         "header"
         "skills"
         "about"
@@ -25,7 +26,9 @@ body{font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: normal;
         font-size: 160px;
-        line-height: 187px;}
+        line-height: 187px;
+        margin-top: 10px;
+        margin-bottom: 30px;}
     h2{font-family: Roboto Mono;
         font-style: normal;
         font-weight: normal;
@@ -62,6 +65,29 @@ body{font-family: 'Roboto', sans-serif;
         font-size: 16px;
         line-height: 21px;
         color: white;}
+    p5{font-family: Roboto Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 21px;}
+/*nav*/
+nav{margin-top: 20px;
+    text-align: right;
+    grid-area: nav;
+    display: flex;
+}
+#jff{
+    flex-basis: 55%
+}
+#aboutMe{
+    flex-basis: 10%;
+}
+#portfolio{
+    flex-basis: 13%;
+}
+#location{
+    flex-basis: 17%;
+}
 
 /*Header*/
 .header{grid-area: header;
@@ -81,34 +107,27 @@ body{font-family: 'Roboto', sans-serif;
     display: flex;
 }
 .headerFlexChild{
-    margin-top: 50px;
+    margin-top: 0px;
     width: 48%;
     display: inline-block;
 }
 #profile{
     vertical-align: top;
-    padding-top: 100px;
+    padding-top: 0px;
 }
-
-#location{
-    width: 223px;
-    height: 55px;
-    right: 0px;
-    top: 50px;
-    text-align: right;
-    z-index: 100;}
     
 #rectangle{
     position: absolute;
     z-index: -1;
     top: 0px;
     left: 100px;
-    height: 900px;
+    height: 800px;
     width: 390px;
     background: #FF6F61;}
 
 /*Skills*/
 .skills{
+    margin-top: 50px;
     grid-area: skills;
     display:flex;
     flex-direction: column;
@@ -310,13 +329,6 @@ body{font-family: 'Roboto', sans-serif;
             margin-top: 10px;
             width: 100%;
         }
-        #location{
-            position: absolute;
-            width: 223px;
-            height: 55px;
-            right: 20px;
-            top: 50px;
-            text-align: right;}
         #personalInfo{
             text-align: center;}
         #rectangle{
