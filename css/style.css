@@ -227,7 +227,13 @@ body{font-family: 'Roboto', sans-serif;
     }
     .swatch{
         width: 100%;
-        height: 362px;  
+        height: 362px;
+        display: flex;}
+    .swatch.growHover {
+            transition: all .1s ease-in-out;}
+    
+    .swatch:hover {
+              transform: scale(1.1);  
     }
     .flexChild{
         width: 33%;
@@ -254,7 +260,10 @@ body{font-family: 'Roboto', sans-serif;
         margin-right: 6px;
     }
         #rectangle4{
-            background: #F34C1B;}
+            background: #F34C1B;
+            }
+
+
     #openArmsOfMN{
         margin-right: 6px;
     }
@@ -263,6 +272,20 @@ body{font-family: 'Roboto', sans-serif;
     #neutralMobileApp{}
         #rectangle6{
             background: #C9D8DF;}
+
+    .showOnHover{
+        opacity: 0;
+    }
+
+    .showOnHover:hover{
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        padding-top:10px;
+        padding-bottom: 10px;
+        opacity: 1;
+    }
+
 
     
 
