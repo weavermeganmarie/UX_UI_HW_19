@@ -277,7 +277,8 @@ body{font-family: 'Roboto', sans-serif;
         width: 100%;
         height: 362px;
         display: flex;
-        margin-bottom: 15px;}
+        margin-bottom: 15px;
+        text-align: center;}
     .swatch.growHover {
             transition: all .1s ease-in-out;}
     
