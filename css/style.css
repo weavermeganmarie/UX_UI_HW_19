@@ -116,7 +116,7 @@ body{font-family: 'Roboto', sans-serif;
     color: black !important;
   }
 .nav-item{
-    text-align: end;
+    text-align: center;
 }
 .dropdown-item{
     text-align: center;
