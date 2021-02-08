@@ -115,7 +115,12 @@ body{font-family: 'Roboto', sans-serif;
 .customNav a {
     color: black !important;
   }
-
+.nav-item{
+    text-align: end;
+}
+.dropdown-item{
+    text-align: end;
+}
 
 /*Header*/
 .header{grid-area: header;
